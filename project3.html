@@ -27,9 +27,13 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
 	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/loader.css">
+
 	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/grid.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+
 
 	<link rel="stylesheet" type="text/css" href="stylesheets/ruby-red.css">
 
@@ -41,7 +45,7 @@
 
 </head>
 
-<body>
+<body class="royal_loader">
 
 	<!-- Begin Navigation -->
 	<nav class="clearfix">
@@ -64,110 +68,77 @@
 	</nav>
 	<!-- End Navigation -->	
 
-	<!-- Begin About -->
-	<section class="content container">
-		<!-- Text -->
-		<div class="title grid-full">
-			<h2>Min Ji Choi</h2>
-			<span class="border"></span>
-			<p class="sub-heading">I am a <Strong>UX / Interaction Designer</Strong> based in Vancouver. Here are some of my past works involving product design, information architecture, user interface design and development.</p>
-		</div>
-	</section>
-	<!-- End About -->
+	<!-- AJAX Content -->
+	<div class="project-content container">
 
-	<!-- Begin Portfolio -->
-	<section class="portfolio container clearfix">
-
-		<!-- Title -->
-		<div class="content container" style="padding-top:0px">
-			<!-- Filters -->
-<!--
-			<ul class="filtering grid-full">
-				<li class="filter" data-filter="all">all</li>
-			    <li class="filter" data-filter="category_1">web</li>
-			    <li class="filter" data-filter="category_2">mobile</li>
-			    <li class="filter" data-filter="category_3">branding</li>
-			</ul>
--->
+		<div class="project-hero grid-full">
+			<img src="images/project3/project_slide.png" alt="">
 		</div>
 
-		<!-- Thumbnails -->
-		<ul id="portfolio-grid" class="projectlist clearfix">
-			<li class="project mix category_1 category_2 mix_all">
-				<a href="project1.html">
-					<img src="images/thumbnails/project1_thumb.png" alt="thumbnail">
-					<div class="projectinfo">
-						<div class="meta">
-							<h4>Mobilize</h4>
-							<h6><em>ia, ux/ui, front-end development</em></h6>
-						</div>
-					</div>
-				</a>
-			</li>
-            <li class="project mix category_1 category_2 category_3 mix_all">
-				<a href="project2.html">
-					<img src="images/thumbnails/project2_thumb.png" alt="thumbnail">
-					<div class="projectinfo">
-						<div class="meta">
-							<h4>K9 to K9</h4>
-							<h6><em>branding, ia, ux/ui, front-end development</em></h6>
-						</div>
-					</div>
-				</a>
-			</li>
-            <!-- temp -->
-<!--
-            <li class="project mix category_2 mix_all">
-				<a href="project1.html">
-					<img src="images/thumbnails/thumb.jpg" alt="thumbnail">
-					<div class="projectinfo">
-						<div class="meta"> 
-							<h4>Pokemenu</h4>
-							<h6><em>user research, ux/ui</em></h6>
-						</div>
-					</div>
-				</a>
-			</li>
--->
-            <li class="project mix category_1 mix_all">
-				<a href="project3.html">
-					<img src="images/thumbnails/project3_thumb.png" alt="thumbnail">
-					<div class="projectinfo">
-						<div class="meta">
-							<h4>XQ Shelf</h4>
-							<h6><em>ia, front-end development</em></h6>
-						</div>
-					</div>
-				</a>
-			</li>
-<!--
-            <li class="project mix category_2 category_3 mix_all">
-				<a href="project1.html">
-					<img src="images/thumbnails/thumb.jpg" alt="thumbnail">
-					<div class="projectinfo">
-						<div class="meta">
-							<h4>Indino</h4>
-							<h6><em>user research, branding, ux/ui</em></h6>
-						</div>
-					</div>
-				</a>
-			</li>
-            <li class="project mix category_3 mix_all">
-				<a href="project1.html">
-					<img src="images/thumbnails/thumb.jpg" alt="thumbnail">
-					<div class="projectinfo">
-						<div class="meta">
-							<h4>Neo</h4>
-							<h6><em>user/market research, branding</em></h6>
-						</div>
-					</div>
-				</a>
-			</li>
--->
-		</ul>
+		<div class="project-title grid-full">
+			<h4>XQ Shelf</h4>
+			<h6><em>company: iQmetrix</em></h6>
+		</div>
 
-	</section>
-	<!-- End Portfolio -->
+		<div class="project-info clearfix">
+			<div class="grid-4">
+				<h6>Description</h6>
+                <p>XQ Shelf is a project that has been through a first iteration before I joined the team. As an interaction designer with experience in development, I have contributed as a bridge between the design and development team. I haven been tasked with creating detailed wireframes and mock annotations, where I uncovered and gave solutions to edge cases, and created prototypes of parts of the actual product for design testing purposes.</p>
+			</div>
+			<div class="grid-2">
+				<h6>Deliverables</h6>
+				<ul>
+                    <li>wireframes</li>
+                    <li>prototype</li>
+                    <li>mock annotations</li>
+                </ul>
+            </div>
+		</div>
+
+        <!-- Content -->
+		<div class="project-content grid-full">
+			<div class="grid-2">
+				<p>Most of the process involved meetings and discussions with the design team, where I would bring up all of the edge cases and possible development complexities, and decisions were made as a group. Through a few rounds of reviews, the wireframes were modified and approved by the design team, development team and business analyst team.</p>
+			</div>
+            
+            <div class="project-hero animated grid-4">
+                <!-- Slider -->
+                <ul class="slider clearfix">
+                    <li>
+                        <img src="images/project3/project_sub1.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/project3/project_sub2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/project3/project_sub3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/project3/project_sub4.png" alt="">
+                    </li>
+                    <li>
+                        <img src="images/project3/project_sub5.png" alt="">
+                    </li>
+                </ul>
+
+                <!-- Pager -->
+                <div class="slider-pager"></div>
+                <div class="small-border"></div>
+
+                <!-- Prev/Next -->
+                <div class="project-gallery-next"></div>
+                <div class="project-gallery-prev"></div>
+
+            </div>
+		</div>
+<!--
+            <div class="grid-3">
+                <img src="images/project2/landing_page.png" alt="">
+            </div>
+-->
+
+	</div>
+	<!-- End AJAX Content -->
 
     <!-- Start Footer -->
     <div class="footer-my">
@@ -179,13 +150,32 @@
         </div>
     </div>
     <!-- End Footer -->
-
+    
 	<!-- Javascript -->
+	<script src="javascript/royal-preloader.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+		//Replace with your own image's path
+	    var images = {
+	        'standard-post':    'http://www.aetherthemes.com/demo/visia/images/blog/standard.jpg',
+	        'gallery-post':    'http://www.aetherthemes.com/demo/visia/images/blog/gallery1.jpg',
+	        'gallery-post2':    'http://www.aetherthemes.com/demo/visia/images/blog/gallery2.jpg'
+	    };
+	 
+	    // config
+	    Royal_Preloader.config({
+	        mode:       'number',
+	        images:     images,
+	        timeout:    10,
+	        showInfo:   false,
+	        background: ['#ffffff']
+	    });
+	</script>
 	<script src="javascript/retina.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/waypoints.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/parallax.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/navigation.js" type="text/javascript" charset="utf-8"></script>
-	<script src="javascript/jquery.mixitup.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascript/styleswitch.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/jquery.easing.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/jquery.fittext.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/jquery.localscroll.js" type="text/javascript" charset="utf-8"></script>
@@ -196,7 +186,21 @@
 	<script src="javascript/jquery.fitvids.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/main.js" type="text/javascript" charset="utf-8"></script>
 	<script src="javascript/shortcodes.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		jQuery('.slider').bxSlider({
+			mode: 'horizontal',
+			touchEnabled: true,
+			swipeThreshold: 50,
+			oneToOneTouch: true,
+			pagerSelector: '.slider-pager',
+			nextSelector: ".project-gallery-next",
+			prevSelector: ".project-gallery-prev",
+			nextText: "next",
+			prevText: "prev",
+			tickerHover: true
+		});
+	</script>
 
 </body>
-        
+
 </html>

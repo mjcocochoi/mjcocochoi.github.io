@@ -427,7 +427,7 @@ nav {
 -------------------------------------------------------------- */
 
 .portfolio { width: 100%; }
-.projectlist { margin-top: 50px; margin-bottom: 140px; background: transparent; }
+.projectlist { margin-top: 50px; background: transparent; }
 .projectlist li { width: 33.33333333%; float: left; }
 .projectlist a { display: block; padding-bottom: 85px; position: relative; }
 
@@ -1311,7 +1311,6 @@ footer {
 	.nav-button { display: block; }
 	.navigation { display: none; }
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
-	.content { padding-top: 50px; } 
 	.content.padded { padding-bottom: 50px; }
 	.icons .overview { width: 33.3333333333%; margin-bottom: 30px; }
 	.icon { cursor: pointer; }
